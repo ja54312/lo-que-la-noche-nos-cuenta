@@ -1,0 +1,26 @@
+*{
+    background-color: #22272E;
+}
+.section-tittle,.section-image,.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 450px;
+    height: 300px;
+}
+.tittle{
+    font-size: 5rem;
+    color: aqua;
+}
+.text-redes{
+    text-align: center;
+    color: aqua;
+    font-size: 3rem;
+}
+.img-contact{
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+}
