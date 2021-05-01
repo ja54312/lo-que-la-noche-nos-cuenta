@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
 }
+
 img{
     width: 450px;
     height: 300px;
@@ -23,4 +24,51 @@ img{
     height: 50px;
     width: 50px;
     padding: 30px;
+}
+@media (max-width: 769px)   {
+    .tittle{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .tittle {
+        font-size: 2rem;
+    }
+    img{
+        width: 250px;
+        height: 150px;
+    }
+    .text-redes{
+        font-size: 1.5rem;
+    }
+    .img-contact{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media (max-width: 376px) {
+    .tittle{
+        font-size: 1.7rem;
+    }
+    .text-redes{
+        font-size: 1.4rem;
+    }
+    .img-contact{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width: 321px){
+    .tittle{
+        font-size: 1.5rem;
+    }
+    .text-redes{
+        font-size: 1.2rem;
+    }
+    .img-contact{
+       padding: 20px;
+    }
 }
